@@ -1,0 +1,74 @@
+/* SCROLLING BANNER */
+.GeneratedMarquee {
+    font-family:Courier, monospace;
+    font-size:1.3em;
+    font-variant:small-caps;
+    line-height:1.3em;
+    color:#333333;
+    background-color:#FFFFCC;
+    padding:0em;
+    border-style: groove;
+}
+
+
+/* PAGE TITLE */
+.pgtitle{
+    background-color: rgb(255, 255, 255);
+    color: #333333;
+    padding: 10px;
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* MENU BAR */
+.menu{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-evenly;
+    color: steelblue;
+    margin: 0px;
+    padding: 25px 20px 25px;
+}
+
+/* PROPERTIES FOR UNVISITED LINKS */
+a:link{
+    color: steelblue;
+    background-color: transparent;
+}
+
+/* PROPERTIES FOR VISITED LINKS */
+a:visited{
+    color: steelblue;
+    background-color: transparent;
+}
+
+/* HOVER FOR LINKS */
+a:hover{
+    color: rgb(15, 50, 80);
+    background-color: transparent;
+    font-weight: 100;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer{
+    background-color: rgb(245, 239, 235);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 5px;
+    width: auto;
+}
+
+.intro{
+    border-radius: 29px;
+    background-color: rgb(250, 250, 250);
+    border: solid 3px rgb(219, 184, 219);
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    width: 355px;
+}
